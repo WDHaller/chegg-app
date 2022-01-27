@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
+import { TopNavBar2Component } from './navigation/topnavbar2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    BottomNavBarComponent
+    BottomNavBarComponent,
+    TopNavBar2Component
   ],
   imports: [
     BrowserModule
