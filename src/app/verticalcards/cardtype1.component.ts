@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component ({
     selector: 'chegg-cardtype1',
@@ -6,10 +6,10 @@ import { Component } from "@angular/core";
     styleUrls: ['cardtype1.component.css']
 })
 export class CardType1Component {
-    img: string;
-    title: string;
-    text: string;
-    link: string;
+    @Input() img: string;
+    @Input() title: string;
+    @Input() text: string;
+    @Input() link: string;
 
     constructor() {
         this.img = "";
