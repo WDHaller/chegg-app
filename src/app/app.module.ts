@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { FreeText1Component } from './freetext/freetext1.component';
 import { FreeText2Component } from './freetext/freetext2.component';
 import { FreeText3Component } from './freetext/freetext3.component';
+import { JumboTron1Component } from './jumbotrons/jumbotron1.component';
+import { JumboTron2Component } from './jumbotrons/jumbotron2.component';
+import { JumboTron3Component } from './jumbotrons/jumbotron3.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { TopNavBar2Component } from './navigation/topnavbar2.component';
@@ -20,7 +23,10 @@ import { CardType1Component } from './verticalcards/cardtype1.component';
     CardType1Component,
     FreeText1Component,
     FreeText2Component,
-    FreeText3Component
+    FreeText3Component,
+    JumboTron1Component,
+    JumboTron2Component, 
+    JumboTron3Component
     
   ],
   imports: [
