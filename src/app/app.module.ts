@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FreeText1Component } from './freetext/freetext1.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { TopNavBar2Component } from './navigation/topnavbar2.component';
@@ -14,7 +15,8 @@ import { CardType1Component } from './verticalcards/cardtype1.component';
     TopNavBarComponent,
     BottomNavBarComponent,
     TopNavBar2Component,
-    CardType1Component
+    CardType1Component,
+    FreeText1Component
     
   ],
   imports: [
