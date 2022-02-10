@@ -12,3 +12,7 @@
     margin-right: 1rem;
     display: inline-flex;
 }
+
+.cardrow {
+    align-items: center;
+}
