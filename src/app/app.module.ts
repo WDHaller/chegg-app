@@ -13,6 +13,12 @@ import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { TopNavBar2Component } from './navigation/topnavbar2.component';
 import { CardType1Component } from './verticalcards/cardtype1.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BooksRentBuyLayoutComponent } from './routingcomponents/books-rent&buy-layout.component';
+import { HomeLayoutComponent } from './routingcomponents/home-layout.component';
+import { BooksReturnLayoutComponent } from './routingcomponents/books-return-layout.component';
+import { BooksSellLayoutComponent } from './routingcomponents/books-sell-layout.component';
+import { BooksReadLayoutComponent } from './routingcomponents/books-read-layout.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +32,17 @@ import { CardType1Component } from './verticalcards/cardtype1.component';
     FreeText3Component,
     JumboTron1Component,
     JumboTron2Component, 
-    JumboTron3Component
+    JumboTron3Component,
+    BooksRentBuyLayoutComponent,
+    HomeLayoutComponent,
+    BooksReturnLayoutComponent,
+    BooksSellLayoutComponent,
+    BooksReadLayoutComponent
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

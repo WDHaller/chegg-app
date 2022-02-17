@@ -1,31 +1,5 @@
 <chegg-topnavbar>Loading...</chegg-topnavbar>
-<chegg-topnavbar2>Loading...</chegg-topnavbar2>
 
-<chegg-jumbotron1>Loading...</chegg-jumbotron1>
-<chegg-jumbotron2>Loading...</chegg-jumbotron2>
-
-<chegg-freetext1>Loading Text...</chegg-freetext1>
-
-<div class="container-fluid d-flex">
-    <div *ngFor="let card of cards">
-        <chegg-cardtype1 class="mx-2" img={{card.img}} title={{card.title}} text={{card.text}} link={{card.link}}>
-            Loading...
-        </chegg-cardtype1>
-    </div>
-</div>
-
-<chegg-freetext2>Loading Text...</chegg-freetext2>
-
-<chegg-jumbotron3>Loading...</chegg-jumbotron3>
-
-<chegg-freetext3>Loading Text...</chegg-freetext3>
-
-<div class="container-fluid d-flex">
-    <div *ngFor="let card of card2s">
-        <chegg-cardtype1 class="mx-2" img={{card.img}} title={{card.title}} text={{card.text}} link={{card.link}}>
-            Loading...
-        </chegg-cardtype1>
-    </div>
-</div>
+<router-outlet></router-outlet>
 
 <chegg-bottomnavbar>Loading...</chegg-bottomnavbar>
