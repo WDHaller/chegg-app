@@ -1,11 +1,8 @@
 .firstJT {
-    background-image: "/assets/JT1.webp";
-}
-
-.secondJT {
-    background-image: "/assets/JT2.png";
+    background-image: url(../../assets/JT1.webp)!important;
+    background-size: cover;
 }
 
 .thirdJT {
-    background-image: "/assets/JT3.webp";
+    background-image: "../../assets/JT3.webp"!important;
 }

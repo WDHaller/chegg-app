@@ -12,19 +12,6 @@
     <div class="col-1"></div>
 </div>
 
-<div class="row">
-    <div class="col-1"></div>
-
-    <div class="col-10">
-        <div class="row">
-            <chegg-jumbotron2>Loading...</chegg-jumbotron2>
-        </div>
-    </div>
-
-    <div class="col-1"></div>
-</div>
-
-
 <chegg-freetext1>Loading Text...</chegg-freetext1>
 
 <div class="container-fluid cardrow1">
@@ -80,7 +67,7 @@
 
         <div class="col-8">
             <div class="row">
-                <div *ngFor="let card of card2s">
+                <div class="col-sm" *ngFor="let card of card2s">
                     <chegg-cardtype1 img={{card.img}} title={{card.title}} text={{card.text}} link={{card.link}}>
                         Loading...
                     </chegg-cardtype1>
