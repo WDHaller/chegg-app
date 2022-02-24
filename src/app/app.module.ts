@@ -7,7 +7,6 @@ import { FreeText1Component } from './freetext/freetext1.component';
 import { FreeText2Component } from './freetext/freetext2.component';
 import { FreeText3Component } from './freetext/freetext3.component';
 import { JumboTron1Component } from './jumbotrons/jumbotron1.component';
-import { JumboTron2Component } from './jumbotrons/jumbotron2.component';
 import { JumboTron3Component } from './jumbotrons/jumbotron3.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
@@ -30,8 +29,7 @@ import { BooksReadLayoutComponent } from './routingcomponents/books-read-layout.
     FreeText1Component,
     FreeText2Component,
     FreeText3Component,
-    JumboTron1Component,
-    JumboTron2Component, 
+    JumboTron1Component, 
     JumboTron3Component,
     BooksRentBuyLayoutComponent,
     HomeLayoutComponent,
