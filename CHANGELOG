@@ -1,0 +1,7 @@
+Main features:
+  Created routing components : "home", "book-rent&buy", "books-read", "books-return", and "books-sell"
+  Used flex-row and flex-col to style home page layout.
+  
+Bonus features: 
+  Created jumbotron components that will be properly implemented later.
+  
