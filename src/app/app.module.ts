@@ -18,6 +18,8 @@ import { HomeLayoutComponent } from './routingcomponents/home-layout.component';
 import { BooksReturnLayoutComponent } from './routingcomponents/books-return-layout.component';
 import { BooksSellLayoutComponent } from './routingcomponents/books-sell-layout.component';
 import { BooksReadLayoutComponent } from './routingcomponents/books-read-layout.component';
+import { JumboTron4Component } from './jumbotrons/jumbotron4.component';
+import { JumboTron5Component } from './jumbotrons/jumbotron5.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { BooksReadLayoutComponent } from './routingcomponents/books-read-layout.
     HomeLayoutComponent,
     BooksReturnLayoutComponent,
     BooksSellLayoutComponent,
-    BooksReadLayoutComponent
+    BooksReadLayoutComponent,
+    JumboTron4Component,
+    JumboTron5Component
     
   ],
   imports: [
